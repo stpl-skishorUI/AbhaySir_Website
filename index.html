@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>अभयसिंग जगताप</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Yatra+One&display=swap" rel="stylesheet">
+    <link href="css/StyleSheet.css" rel="StyleSheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top scrolled">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.svg" class="अभयसिंग जगताप">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+                        <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav ms-auto mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#home">मुख्यपृष्ठ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#aboutus">आमच्याबद्दल</a>
+                            </li>
+                            <!-- <li class="nav-item">
+                                <a class="nav-link" href="#program">कार्यक्रम</a>
+                            </li> -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="#photogallery">फोटोगॅलरी</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">संपर्क</a>
+                            </li>
+                        </ul>
+                        <!-- <div class="d-flex">
+                            <button class="btn btn-main" type="submit">आमच्याशी जोडा</button>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="container" id="home">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-sm-6 order-1 order-lg-0">
+                    <div id="carousel-banner" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <h1>एकत्र मिळून <br>देशाला पुढे नेऊ!</h1>
+                                <p>आपल्या समस्यांचे समाधान करण्यासाठी माझ्या अनुभव, ज्ञान आणि कौशल्य वापरूया. आपल्या
+                                    प्रदेशाचे विकास, सुरक्षा, शिक्षण, स्वास्थ्य, पर्यावरण, सामाजिक न्याय आणि समृद्धीसाठी
+                                    काम करूया. आपल्या मतदारांना सहभागी करून, त्यांना सुनिश्चित करून, आणि त्यांना प्रेरित
+                                    करून, एक सकारात्मक परिवर्तन घडवूया. </p>
+                            </div>
+                            <div class="carousel-item">
+                                <h1>लोकांच्या उज्ज्वल <br>भविष्यासाठी आदर्श</h1>
+                                <p>आपल्या लोकांसाठी काम करेन. आपल्या समस्यांना समजून घेईन, आपल्या हक्कांना संरक्षित
+                                    करेन, आणि आपल्या प्रगतीसाठी प्रेरित करेन. निष्ठा, सत्य, आणि परिश्रमाचे प्रतिनिधित्व
+                                    करेन. आपल्या मताचे मूल्य समजून घेईन. </p>
+                            </div>
+                            <div class="carousel-item">
+                                <h1>लोकांच्या कल्याणासाठी, <br>उद्धारासाठी </h1>
+                                <p>आपल्या मतदारसंघासमोरील अडचणी समजून घेऊन त्यावर उपाय काढूया. आपल्या राजकारण्याच्या
+                                    उमेदवार हे आपल्या सर्व गरजा पूर्ण करण्यासाठी काम करेन. आपल्या समुदायाचे हित, सुरक्षा
+                                    आणि समृद्धी सुनिश्चित करेन. आपल्या मुलींना, मुलांना आणि नागरिकांना समतोल महत्व, संधी
+                                    आणि सहकार्य पूरवेन.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-5 order-0 order-lg-1">
+                    <img src="images/Abhay_sir_1.png" class="candidate-photo">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%"
+                data-bs-smooth-scroll="true" tabindex="0">
+                <section id="aboutus">
+                    <h4 class="section-heading">आमच्याबद्दल</h4>
+                    <div class="row align-items-center">
+                        <div class="col-sm-6">
+                            <img src="images/mhasavad-rath.jpg" class="img-fluid rounded-4 border border-dark">
+                        </div>
+                        <div class="col-sm-6">
+                            <p>माझे नाव अभयसिंग जगताप आहे आणि मी आपल्या विधानसभा क्षेत्राचा प्रतिनिधी म्हणून उमेदवार
+                                आहे. मी
+                                एक युवा, सक्रिय आणि समाजसेवी राजकारणी आहे. माझ्या क्षेत्रातील लोकांच्या समस्यांना समजून
+                                घेण्यासाठी मी प्रत्येक महिन्याला कमीतकमी १० दिवस प्रवास करतो. मी सरकारी सेवा, कृषी,
+                                शिक्षण,
+                                स्वास्थ्य, पर्यावरण, महिला हक्क, बाल विकास, संस्कृती, कला आणि क्रीडा या क्षेत्रांमध्ये
+                                सुधारणा करण्यासाठी प्रयत्न करतो. मला आपले सहकार्य, समर्थन आणि आशीर्वाद हवे. मला मतदार
+                                संघाचे
+                                प्रतिनिधि होऊन हे करता येईल हे मला खात्री आहे.</p>
+                            <p>मी आपल्या क्षेत्रातील सर्व प्रश्नांना समजून घेण्याचा प्रयत्न करतो आणि माझ्या पक्षाच्या
+                                कार्यकर्त्यांसह काम करून आपल्या क्षेत्राचे विकास करण्याची माझी प्रतिज्ञा आहे. मी सरकारी
+                                सेवेत १५ वर्षे काम केले आहे, मला सरकारी प्रक्रिया, कायदे, नियम, अनुसंधान, संपर्क,
+                                संघर्ष,
+                                समस्या-निराकरण, समुपदेशन, संघटना, संचालन, प्रभावीत करणे इत्यादी बाबींची बारीक माहिती आहे
+                            </p>
+                            <p>
+                                एक राजकारणी म्हणून, मी आपल्या शहराच्या विकासासाठी अनेक प्रयत्न केले आहेत. मी शिक्षण,
+                                स्वास्थ्य, पर्यावरण, आणि सुरक्षा या क्षेत्रातील सुधारणा करण्यासाठी कार्यक्रम चालू केले
+                                आहेत.
+                                मी आपल्या मतदारांना समुदाय संरक्षण, समानता, आणि समृद्धीसाठी कौतुक करतो. मी आपल्या
+                                प्रतिस्पर्धीपेक्षा अधिक अनुभवी, सक्षम, आणि प्रमाणित आहे.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- <section id="program">
+                    <h4 class="section-heading">कार्यक्रम</h4>
+                    <p>...</p>
+                </section> -->
+
+                <section id="lightgallery">
+                    <h4 class="section-heading">फोटोगॅलरी</h4>
+                    <div class="row g-3">
+                        <div class="col-sm-3 col-6">
+                            <a data-fancybox="gallery" data-src="https://lipsum.app/id/2/1024x768"
+                                data-caption="Optional caption,&lt;br /&gt;that can contain &lt;em&gt;HTML&lt;/em&gt; code">
+                                <img src="https://lipsum.app/id/2/200x150" />
+                            </a>
+                        </div>
+                        <div class="col-sm-3 col-6">
+                            <a data-fancybox="gallery" data-src="https://lipsum.app/id/3/1024x768">
+                                <img src="https://lipsum.app/id/3/200x150" />
+                            </a>
+                        </div>
+                        <div class="col-sm-3 col-6">
+                            <a data-fancybox="gallery" data-src="https://lipsum.app/id/4/1024x768">
+                                <img src="https://lipsum.app/id/4/200x150" />
+                            </a>
+                        </div>
+                        <div class="col-sm-3 col-6">
+                            <a data-fancybox="gallery" data-src="https://lipsum.app/id/5/1024x768">
+                                <img src="https://lipsum.app/id/5/200x150" />
+                            </a>
+                        </div>
+                        <div class="col-sm-3 col-6">
+                            <a data-fancybox="gallery" data-src="https://lipsum.app/id/6/1024x768"
+                                data-caption="Optional caption,&lt;br /&gt;that can contain &lt;em&gt;HTML&lt;/em&gt; code">
+                                <img src="https://lipsum.app/id/6/200x150" />
+                            </a>
+                        </div>
+                        <div class="col-sm-3 col-6">
+                            <a data-fancybox="gallery" data-src="https://lipsum.app/id/7/1024x768">
+                                <img src="https://lipsum.app/id/7/200x150" />
+                            </a>
+                        </div>
+                        <div class="col-sm-3 col-6">
+                            <a data-fancybox="gallery" data-src="https://lipsum.app/id/8/1024x768">
+                                <img src="https://lipsum.app/id/8/200x150" />
+                            </a>
+                        </div>
+                        <div class="col-sm-3 col-6">
+                            <a data-fancybox="gallery" data-src="https://lipsum.app/id/9/1024x768">
+                                <img src="https://lipsum.app/id/9/200x150" />
+                            </a>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="contact">
+                    <h4 class="section-heading">संपर्क</h4>
+                    <div class="row g-3 form-container">
+                        <div class="col-sm-4">
+                            <!-- <label class="form-label">पूर्ण नाव</label> -->
+                            <input type="email" class="form-control" placeholder="पूर्ण नाव">
+                        </div>
+                        <div class="col-sm-4">
+                            <!-- <label class="form-label">ई - मेल आयडी</label> -->
+                            <input type="email" class="form-control" placeholder="ई - मेल आयडी">
+                        </div>
+                        <div class="col-sm-4">
+                            <!-- <label class="form-label">संपर्क क्रमांक</label> -->
+                            <input type="email" class="form-control" placeholder="संपर्क क्रमांक">
+                        </div>
+                        <div class="col-sm-12">
+                            <!-- <label class="form-label">संदेश (असल्यास)</label> -->
+                            <textarea class="form-control" rows="4" placeholder="संदेश (असल्यास)"></textarea>
+                        </div>
+                        <div class="col-sm-12">
+                            <div class="text-center">
+                                <button class="btn btn-secondary" type="reset">रद्द करा</button>
+                                <button class="btn btn-main" type="submit">सबमिट करा</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <p class="text-white mb-1">आपलाच</p>
+                    <img src="images/logo.svg" class="अभयसिंग जगताप">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="social-icons">
+        <a href="#" class="facebook" data-bs-toggle="tooltip" data-bs-title="Facebook"><i
+                class="fa-brands fa-facebook-f"></i></a>
+        <a href="#" class="twitter" data-bs-toggle="tooltip" data-bs-title="X (Twitter)"><i
+                class="fa-brands fa-x-twitter"></i></a>
+        <a href="#" class="linkedin" data-bs-toggle="tooltip" data-bs-title="LinkedIn"><i
+                class="fa-brands fa-linkedin-in"></i></a>
+        <a href="#" class="instagram" data-bs-toggle="tooltip" data-bs-title="Instagram"><i
+                class="fa-brands fa-instagram"></i></a>
+        <a href="#" class="youtube" data-bs-toggle="tooltip" data-bs-title="Youtube"><i
+                class="fa-brands fa-youtube"></i></a>
+        <a href="#" class="blog" data-bs-toggle="tooltip" data-bs-title="Blog"><i
+                class="fa-brands fa-blogger-b"></i></a>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"
+    integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script>
+    Fancybox.bind('[data-fancybox="gallery"]', {
+        //
+    });
+    $(document).ready(function () {
+        var scroll_start = 0;
+        var startchange = $('#home');
+        var offset = startchange.offset();
+        if (startchange.length) {
+            $(document).scroll(function () {
+                scroll_start = $(this).scrollTop();
+                if (scroll_start > offset.top) {
+                    $(".navbar").css('background-color', 'rgba(0,0,0,0.75)');
+                } else {
+                    $('.navbar').css('background-color', 'transparent');
+                }
+            });
+        }
+    });
+    document.addEventListener("DOMContentLoaded", function (event) {
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
+        const tooltipList = [...tooltipTriggerList].map((tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl));
+    });
+</script>
+
+</html>

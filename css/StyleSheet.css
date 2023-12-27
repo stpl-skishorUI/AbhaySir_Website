@@ -1,0 +1,197 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+    /* font-family: 'Yatra One', sans-serif; */
+}
+
+:root {
+    --main-color: rgb(255, 102, 0);
+    --main-dark-color: rgb(188, 75, 0);
+    --main-light-color: rgb(255, 225, 205);
+}
+
+a.text-main,
+.text-main {
+    color: var(--main-color);
+}
+
+.bg-main {
+    background-color: var(--main-color);
+}
+
+.btn-main {
+    background-color: var(--main-color);
+    border: solid 1px var(--main-color);
+    box-shadow: none;
+    color: #fff;
+}
+
+.btn-main:hover {
+    background-color: var(--main-dark-color);
+    color: #fff;
+}
+
+header {
+    background-image: url('../images/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header .navbar-toggler {
+    color: #fff;
+    border-color: #fff;
+    padding: 10px 12px;
+    box-shadow: none !important;
+}
+
+header .navbar-brand img {
+    width: 300px;
+}
+
+header .navbar-nav .nav-item {
+    padding-inline: 15px;
+}
+
+header .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+header .navbar-nav .nav-link.active,
+header .navbar-nav .nav-link:active,
+header .navbar-nav .nav-link:hover {
+    color: var(--main-color);
+}
+
+#home {
+    padding-top: 100px;
+}
+
+#home .candidate-photo {
+    width: 100%;
+    margin-bottom: -4px;
+}
+
+#home .carousel-inner .carousel-item {
+    color: #fff;
+}
+
+#home .carousel-inner .carousel-item h1 {
+    font-family: 'Yatra One', sans-serif;
+    font-size: 4rem;
+    line-height: 5.5rem;
+    color: var(--main-color);
+}
+
+#home .carousel-inner .carousel-item p {
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width: 420px) {
+    #home .carousel-inner .carousel-item {
+        text-align: center;
+        padding-top: 1rem;
+    }
+
+    #home .carousel-inner .carousel-item h1 {
+        font-family: 'Yatra One', sans-serif;
+        font-size: 2rem;
+        line-height: 2.5rem;
+        color: var(--main-color);
+    }
+
+    #home .carousel-inner .carousel-item p {
+        font-size: 0.85rem;
+    }
+
+    header .navbar-brand img {
+        width: 200px;
+    }
+}
+
+section {
+    padding-block: 2rem;
+}
+
+section .section-heading {
+    font-family: 'Yatra One', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: 1.5rem;
+}
+
+section .section-heading:after {
+    display: block;
+    content: '';
+    border-bottom: solid 5px var(--main-color);
+    width: 5%;
+    margin: 0 auto;
+    padding-top: 5px;
+}
+
+#lightgallery img {
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.form-container .form-label {
+    color: #767676;
+    font-size: 0.8rem;
+    margin-bottom: 0;
+}
+
+.form-container .form-control {
+    font-size: 1rem;
+    box-shadow: none;
+}
+
+footer {
+    background-color: #555;
+    padding-block: 1rem;
+}
+
+footer img {
+    width: 200px;
+}
+
+.social-icons {
+    position: fixed;
+    right: 0;
+    top: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #fff;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.social-icons a.facebook {
+    background-color: #316FF6;
+}
+
+.social-icons a.twitter {
+    background-color: #1DA1F2;
+}
+
+.social-icons a.linkedin {
+    background-color: #0077b5;
+}
+
+.social-icons a.instagram {
+    background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+}
+
+.social-icons a.youtube {
+    background-color: #CD201F;
+}
+
+.social-icons a.blog {
+    background-color: #fc4f08;
+}
