@@ -131,6 +131,9 @@ section .section-heading:after {
 
 #lightgallery img {
     width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: top;
     border-radius: 10px;
     cursor: pointer;
 }
